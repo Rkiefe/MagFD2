@@ -5,6 +5,7 @@ One script runs Hd considering only the magnetic domain. The other considers the
 
 ## Method:
 Main equation:
+
 $$\nabla \cdot \vec{H_d} = -\nabla \cdot \vec{M}$$
 
 Considering $H_d = -\nabla \phi$, results in: $\nabla^2 \phi = \nabla \cdot \vec{M}$, which is a Poisson equation. Now you apply the centered differences to the second order derivatives and iterate over a grid.
