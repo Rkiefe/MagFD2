@@ -16,4 +16,4 @@ $$(\nabla \phi_{int} - \nabla \phi_{ext} )\cdot n = M \cdot n$$
 and for the outside: $\phi = 0$
 
 ### Potential of the magnetic field Hd, example:
-![potential](https://github.com/user-attachments/assets/1b468598-1750-4ba6-9834-c1632d11e067)
+![potential](https://github.com/user-attachments/assets/537e252e-e47a-4c4b-97c0-73584f6e6b6c)
