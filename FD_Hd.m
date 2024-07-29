@@ -211,7 +211,7 @@ if plotting % Plot vector field
     % Plot |Hd|
     figure
     % scatter(X(:),Y(:),10,Hd_norm); clear X Y
-    surf(X(:),Y(:),sqrt(Hd_x.^2+Hd_y.^2)),'EdgeColor','interp'); clear X Y
+    surf(X,Y,sqrt(Hd_x.^2+Hd_y.^2),'EdgeColor','interp'); clear X Y
     hold on
     pgon.plot("FaceAlpha",0,"EdgeColor","r")
 
