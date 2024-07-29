@@ -10,7 +10,9 @@ $$\nabla \cdot \vec{H_d} = -\nabla \cdot \vec{M}$$
 
 Considering $H_d = -\nabla \phi$, results in: $\nabla^2 \phi = \nabla \cdot \vec{M}$, which is a Poisson equation. Now you apply the centered differences to the second order derivatives and iterate over a grid.
 The border condition for the magnetic region is,
+
 $$(\nabla \phi_{int} - \nabla \phi_{ext} )\cdot n = M \cdot n$$
+
 and for the outside: $\phi = 0$
 
 ### Potential of the magnetic field Hd, example:
