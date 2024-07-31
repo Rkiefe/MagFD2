@@ -1,5 +1,5 @@
 # Finite difference method for the demagnetizing field calculation
-Solves the  2D demagnetizing field "Hd" for a given magnetization configuration using the finite difference method.
+Solves the  2D and 3D demagnetizing field "Hd" for a given magnetization configuration using the finite difference method.
 
 It considers the vaccum exterior to set the magnetic potential to 0 in "infinity". There is an additional file ending in .c which contains the same algorithm written in C, with about 3x the performance, still in production. In the future, the C code will be implemented in Matlab using mex.
 
